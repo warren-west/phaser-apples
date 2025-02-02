@@ -1,4 +1,3 @@
-// import './style.css'
 import Phaser from 'phaser'
 
 // game constants
@@ -201,7 +200,7 @@ gameStartBtn.addEventListener("click", () => {
 
 gameRetryBtn.addEventListener("click", () => {
   // gameEndDiv.style.display = "none"
-  
+
   // game = new Phaser.Game(config)
   // game.scene.resume("scene-game")
   window.location.reload()
