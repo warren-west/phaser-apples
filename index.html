@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apple Catcher</title>
+</head>
+
+<body>
+  <header>
+    <p>
+      Phaser Demo | Apple Catcher
+    </p>
+  </header>
+  <main>
+    <canvas id="gameCanvas"></canvas>
+    <div id="gameStartDiv" class="gameUI">
+      <h1>Apple Catcher</h1>
+      <p>You have 30 seconds to catch apples!</p>
+      <p>Catch at least 10 apples to win!</p>
+      <br>
+      <button id="gameStartButton"><p>Start!</p></button>
+    </div>
+    <div id="gameEndDiv" class="gameUI">
+      <p>Game over!</p>
+      <h1><span id="gameWinLoseSpan"></span></h1>
+      <h1>Final score: <span id="gameEndScoreSpan"></span></h1>
+      <!-- <p>Refresh to play again</p> -->
+      <button id="retryButton">Retry</button>
+    </div>
+  </main>
+  <footer>
+    <p>
+      Created by Warren West 2025
+    </p>
+  </footer>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
